@@ -1,0 +1,14 @@
+.block_googlesearch .item {
+  border: 1px solid #dee2e6;
+  border-radius: 1rem;
+  padding: 16px;
+  margin-bottom: 8px;
+
+  &.-warning {
+    border-color: #ffee00;
+  }
+
+  &.-error {
+    border-color: #ff0000;
+  }
+}
